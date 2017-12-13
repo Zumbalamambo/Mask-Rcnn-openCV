@@ -6,9 +6,11 @@ fork from https://github.com/matterport/Mask_RCNN
 
 ####if python3:
 
-* download mask_rcnn_coco.h5 from somewhere
-
+download mask_rcnn_coco.h5 from somewhere
+download coco 
 * cd Mask-Rcnn-openCV
+* git clone https://github.com/waleedka/coco.git
+rename coco to coco3
 * cd coco3/PythonAPI
 * make
 
@@ -17,9 +19,10 @@ fork from https://github.com/matterport/Mask_RCNN
 
 ####if python2:
 
-* download mask_rcnn_coco.h5 from somewhere
-
+download mask_rcnn_coco.h5 from somewhere
+download coco 
 * cd Mask-Rcnn-openCV
+* git clone https://github.com/waleedka/coco.git
 * cd coco/PythonAPI
 * make
 
